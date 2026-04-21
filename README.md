@@ -1,201 +1,89 @@
-# 📡 AirBridge - Seamless Windows-to-Windows File Sharing
+<div align="center">
 
-**AirBridge** is a powerful and user-friendly desktop application built using Flutter that brings the magic of seamless file and data sharing—similar to Apple’s AirDrop—to Windows devices. Whether you're in an office, classroom, or just moving files between your own PCs, AirBridge eliminates the clutter of cables, USBs, or third-party cloud drives.
+<!-- You can replace the src link with the actual path to your branding image or an animated GIF -->
+<img src="./branding_image.jpg" alt="AirBridge - The Universe is Expanding" width="100%" style="border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);">
 
----
+<br/>
+<br/>
 
-## 🚀 Features
+# 🌌 AirBridge
+**The Ultimate Cross-Platform Ecosystem for File Sharing, Cloud Vault, and AI Intelligence**
 
-- 🔄 **Instant File Transfer**: Effortlessly share files across nearby Windows machines over a local or remote network.
-- 🔐 **Secure Sharing**: Each transfer is encrypted and authenticated—your files stay yours.
-- ☁️ **Cloud Backup with AWS S3**: Optionally store files in the cloud for persistent access or backup.
-- 📦 **Modern Tech Stack**: Flutter desktop frontend, blazing-fast Node.js backend, and reliable AWS deployment.
-- 🧾 **Track & Manage Files**: See what you’ve sent and received—stored securely in MongoDB.
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
+[![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)](#)
+[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](#)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
+[![Web](https://img.shields.io/badge/Web-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](#)
 
----
+*AirBridge is a next-generation ecosystem that breaks the boundaries between devices. Experience zero-latency file transfers, an intelligent cloud vault, blockchain-verified ownership, and a self-learning AI that lets you talk directly to your files. Welcome to the future of data mobility.*
 
-## 🛠 Tech Stack
-
-| Layer            | Tech Used               |
-|------------------|--------------------------|
-| Frontend (UI)    | 🖥 Flutter (Desktop)     |
-| Backend (API)    | ⚙️ Node.js + Express.js  |
-| Database         | 📚 MongoDB               |
-| Cloud Storage    | ☁️ AWS S3                |
-| Deployment       | 🚀 AWS Elastic Beanstalk |
-| Txt Summarization| 🗨️ Gemma 27B & GCP       |
-| Containerization | 📦 Docker                |
+</div>
 
 ---
 
-## 📁 How It Works
+## 🚀 Next-Gen Features
 
-1. **User selects files** from the AirBridge desktop UI.
-2. Files are **transferred to nearby Windows devices** over the network.
-3. Optionally, files are uploaded to **AWS S3** for storage.
-4. All file metadata is **stored in MongoDB** for tracking and analytics.
-5. The Node.js backend handles real-time sync and communication across clients.
-6. **Gemma 27B parameter AI model has added** for advanced text summarization of files so that user don't need to worry about what consist in files.
+AirBridge leverages a powerful suite of modern technologies to completely rethink how we handle digital files. Built for scale, speed, and uncompromising security.
+
+### ⚡ **Instant & Intelligent Transfer**
+- **Seamless Local Discovery:** Instant file transfer up to **250 MB** to nearby devices using advanced IP-based device discovery. No internet required for local peer-to-peer sharing.
+- **Blazing Fast Uploads:** Powered by Python metadata analysis, our system instantly detects if a file already exists on the cloud. This deduplication bypasses redundant uploads, drastically reducing cloud storage costs and delivering an instant upload experience.
+
+### ☁️ **Unified Storage Hub & Security**
+- **Generous Cloud Vault:** Enjoy **15 GB of free cloud storage** for every registered user, with affordable, premium storage options for power users.
+- **Scan & Share Instantly:** Easily share and download cloud files from nearby users via QR code scanning. Every file gets its own unique, highly secure QR code.
+- **Military-Grade Encryption:** Optional and entirely free **End-to-End Encryption (E2EE)**. We utilize an advanced, high-level secure system built with Python to guarantee your data remains strictly yours.
+
+### 🛡️ **Immutable Ownership**
+- **Blockchain Authority:** True file authority and ownership. We provide immutable ownership of files to users via advanced blockchain hashing mechanisms.
+
+### 🤖 **Artificial Intelligence Integration**
+- **Smart Document Classification:** An AI-based document classification system that automatically organizes, categorizes, and tags your uploaded files.
+- **Chat With Your Files (RAG System):** A revolutionary Smart File Answering system. Using Retrieval-Augmented Generation (RAG), you can ask contextual questions and get smart, accurate answers directly from the contents of the documents you've uploaded.
+
+<br/>
+
+<div align="center">
+<!-- You can replace the src link with the actual path to your store listing images -->
+<img src="./store_listing_image.jpg" alt="AirBridge Interface Showcase" width="100%" style="border-radius: 15px;">
+</div>
+
+<br/>
 
 ---
 
-## 🔧 Installation & Setup
+## 🛠 Advanced Tech Stack
 
-Follow the steps below to get **AirBridge** up and running on your machine. This guide covers both desktop and web deployment, including Python scripts and GitHub Pages setup.
+AirBridge is engineered using industry-leading technologies to ensure blazing performance, ultimate security, and smart AI capabilities.
 
-### 1. Clone the repository
-
-First, clone the GitHub repository:
-
-```bash
-git clone git@github.com:mohamed8270/air_bridge.git
-cd air_bridge
-```
-
-### 2. Install Flutter Dependencies
-
-```bash
-flutter --version
-```
-
-Then fetch all dependencies:
-
-```bash
-flutter pub get
-```
-
-### 3. Python Setup
-
-The py folder contains scripts for:
-
-- Generative model files (builder.py)
-- Platform-specific icons (icon-builder.py)
-- Splash screen builder (splash-builder.py)
-
-Navigate to the py directory:
-
-```bash
-cd py
-```
-
-Run the scripts individually (optional, Makefile also runs them automatically):
-
-```bash
-python builder.py
-python icon-builder.py
-python splash-builder.py
-```
-
-⚠️ Ensure Python is installed and added to your system PATH.
-
-### 4. Run the Flutter Desktop App
-
-To run AirBridge on Windows:
-
-```bash
-flutter run -d windows
-```
-
-This will launch the desktop version of the app. For macOS or Linux, replace windows with macos or linux.
-
-### 5. Build for Web
-
-To build the web version of AirBridge:
-
-```bash
-flutter build web --base-href /air_bridge/ --release
-```
-
-This creates a production-ready web build inside build/web/.
-
-### 6. Deploy Web Version Using Makefile
-
-A Makefile is included to automate deployment:
-
-```bash
-make deploy-web
-```
-
-The Makefile does the following:
-
-1. Cleans the Flutter project (flutter clean)
-2. Runs Python scripts in the py folder
-3. Builds the web app (flutter build web)
-4. Pushes the build/web folder to GitHub
-
-Important Notes:
-
-- Install make: On Windows, use [Chocolatey](https://chocolatey.org/) or Git Bash.
-- GitHub SSH keys must be set up for passwordless pushes:
-
-```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
-ssh-add ~/.ssh/id_ed25519
-ssh -T git@github.com
-```
-
-- Deployment can be done to a separate branch (e.g., gh-pages) or a /docs folder in main branch. Configure GitHub Pages to serve from the chosen location.
-- The Makefile automatically uses BUILD_VERSION from pubspec.yaml for commit messages.
-
-### 7. Access the Web App
-
-Once deployed, the web version will be accessible at:
-
-```bash
-https://username.github.io/air_bridge/
-```
-
-### 8. Optional: Local Development Tips
-
-- If you modify Python scripts in py, run them manually before building Flutter web.
-- For debugging Flutter desktop apps, use:
-
-```bash
-flutter run -d windows --verbose
-```
-
-- To clean cached builds:
-
-```bash
-flutter clean
-```
-
-### Summary
-
-- py/ → Python scripts for assets & splash screen generation
-- flutter build web → Creates production-ready web version
-- make deploy-web → Automates building & pushing to GitHub Pages
-- Desktop apps → Run via flutter run -d windows
-- Web apps → Served from build/web/ folder
-
-This setup ensures both desktop and web builds are ready, and the deployment workflow is reproducible for future updates.
+| Category | Technologies Used |
+| :--- | :--- |
+| 📱 **Frontend (Cross-Platform)** | Flutter |
+| ⚙️ **Backend & APIs** | Node.js, Express.js, Python |
+| 🗄️ **Database & Caching** | MongoDB, Redis |
+| ☁️ **Cloud & Storage** | Backblaze B2, Google Cloud Console (Logger) |
+| 🧠 **AI Models** | Whisper AI, Gemini AI, Ollama AI |
+| 🚀 **Deployment & DevOps** | Docker, Nginx, Coolify (Self-hosting), Hostinger VPS |
+| 📦 **App Distribution** | Custom-made app distribution system *(Alternative to Firebase App Distribution)* |
 
 ---
 
 ## 💡 Use Cases
 
-- Office teams sharing documents without email or USB
-- Students collaborating on projects
-- Personal multi-device file syncing
-- Developers transferring code or media quickly
+AirBridge is designed to empower individuals, enterprises, and innovators:
 
----
-
-## 📈 Project Status
-
-- ✅ Project scaffolded and pushed to GitHub
-- 🔄 Core feature development in progress
-- 🚀 Beta version expected soon!
-
----
-
-## 📬 Contributions & Feedback
-
-We welcome your ideas, bug reports, and suggestions!  
-Feel free to [open an issue](https://github.com/mohamed8270/azezun-server/issues) or submit a pull request.
+- 🏢 **Enterprise & Office Teams:** Securely transfer confidential corporate files via E2EE and verify authenticity using blockchain before distribution.
+- 🎓 **Researchers & Students:** "Talk" to research papers or large PDF documents using our RAG-based AI to instantly extract key findings and answers.
+- 🎨 **Content Creators:** Transfer large media files (up to 250MB) seamlessly across mobile, web, and desktop devices without any compression or quality loss.
+- 🔒 **Privacy Advocates:** Store data in a secure digital vault with zero-knowledge encryption and blockchain-backed integrity.
+- 💻 **Tech Enthusiasts:** Utilize a robust, AI-augmented cloud ecosystem that bridges the gap between local offline speed and cloud convenience.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
+**Proprietary Commercial License**  
+*Copyright © 2026 AirBridge. All Rights Reserved.*
+
+This project, its source code, assets, and documentation are proprietary and confidential. Unauthorized copying, distribution, modification, public display, or use of this software—via any medium—is strictly prohibited without prior explicit written consent from the project owners.
