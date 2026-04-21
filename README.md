@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- You can replace the src link with the actual path to your branding image or an animated GIF -->
-<img src="./branding_image.jpg" alt="AirBridge - The Universe is Expanding" width="100%" style="border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);">
+<img src="https://github.com/mohamed8270/air_bridge_releases/blob/main/ad%20for%20more%20storage.jpg" alt="AirBridge - The Universe is Expanding" width="100%" style="border-radius: 15px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);">
 
 <br/>
 <br/>
@@ -46,7 +46,7 @@ AirBridge leverages a powerful suite of modern technologies to completely rethin
 
 <div align="center">
 <!-- You can replace the src link with the actual path to your store listing images -->
-<img src="./store_listing_image.jpg" alt="AirBridge Interface Showcase" width="100%" style="border-radius: 15px;">
+<img src="https://github.com/mohamed8270/air_bridge_releases/blob/main/playstore-listing-img.jpg" alt="AirBridge Interface Showcase" width="100%" style="border-radius: 15px;">
 </div>
 
 <br/>
