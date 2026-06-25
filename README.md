@@ -53,22 +53,6 @@ AirBridge leverages a powerful suite of modern technologies to completely rethin
 
 ---
 
-## 🛠 Advanced Tech Stack
-
-AirBridge is engineered using industry-leading technologies to ensure blazing performance, ultimate security, and smart AI capabilities.
-
-| Category | Technologies Used |
-| :--- | :--- |
-| 📱 **Frontend (Cross-Platform)** | Flutter |
-| ⚙️ **Backend & APIs** | Node.js, Express.js, Python |
-| 🗄️ **Database & Caching** | MongoDB, Redis |
-| ☁️ **Cloud & Storage** | Backblaze B2, Google Cloud Console (Logger) |
-| 🧠 **AI Models** | Whisper AI, Gemini AI, Ollama AI |
-| 🚀 **Deployment & DevOps** | Docker, Nginx, Coolify (Self-hosting), Hostinger VPS |
-| 📦 **App Distribution** | Custom-made app distribution system *(Alternative to Firebase App Distribution)* |
-
----
-
 ## 💡 Use Cases
 
 AirBridge is designed to empower individuals, enterprises, and innovators:
@@ -81,9 +65,40 @@ AirBridge is designed to empower individuals, enterprises, and innovators:
 
 ---
 
+## 🛠 Advanced Tech Stack
+
+AirBridge is engineered using industry-leading technologies to ensure blazing performance, ultimate security, and smart AI capabilities.
+
+| Layer            | Tech Used                                                 |
+|------------------|----------------------------------------------------------- |
+| Frontend (UI)    | 🖥 Flutter (All platform)                                  |
+| Backend (API)    | ⚙️ Node.js + Express.js                                   |
+| Backend (AI)     | 🐍 Python Microservice                                    |
+| Database         | 📚 MongoDB                                                |
+| Cloud Storage    | ☁️ Backblaze B2                                           |
+| Deployment       | 🚀 Hostinger VPS + 🍹 Coolify +  🗃️ Render + Github Pages|
+| Txt Summarization| 🗨️ Gemini 27B & Groq                                      |
+| Containerization | 📦 Docker                                                 |
+| Reverse proxy    | ⚙️ NGINX                                                  |
+| Blockchain       | ⛓️‍💥 Polygon Testnet                                        |
+| E2EE             | 🔐 Python crypto                                          |
+| Sentinel security| 🛡️ Gemma 2b on-device AI                                  |
+| Smart Chat       | 🗨️ Gemini 120b & Groq                                     |
+| Version control  | 🚦 Git + GitHub                                           |
+| UI/UX design     | 🎨 Figma + Driblle + Behance + Pinterest                  |
+| AI Code Assistant| 🧠 Jules + Google Gemini + AntiGravity + Cluade + Perplexity|
+| Orchestration    | ⚙️ Kubernetes + Docker + NGINX                            |
+| Caching          | 💾 Redis + MongoDB                                        |
+| Logs explorer    | 🔍 Google Cloud Console                                   |
+
+---
+
 ## 📄 License
 
-**Proprietary Commercial License**  
-*Copyright © 2026 AirBridge. All Rights Reserved.*
+**Proprietary and Confidential**
 
-This project, its source code, assets, and documentation are proprietary and confidential. Unauthorized copying, distribution, modification, public display, or use of this software—via any medium—is strictly prohibited without prior explicit written consent from the project owners.
+All rights reserved. This software is the proprietary and confidential property of the author. 
+
+Unauthorized copying, distribution, modification, reproduction, or use of this software, in whole or in part, via any medium is strictly prohibited without explicit written permission. This project is intended for commercial use, is not open-source, and is protected by applicable copyright laws.
+
+The software is covered by an End User License Agreement (EULA) strictly tailored for commercial, proprietary use, overriding any default open-source assumptions.
