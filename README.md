@@ -10,10 +10,10 @@
 **The Ultimate Cross-Platform Ecosystem for File Sharing, Cloud Vault, and AI Intelligence**
 
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/mohamed8270/air_bridge_releases/releases/download/latest/app-build.apk)
-<!-- [![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)](#) -->
-<!-- [![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](#) -->
+[![iOS (On the way)](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)](#)
+[![macOS (Coming soon)](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](#)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://apps.microsoft.com/store/detail/9P8N21D3DFT2?cid=DevShareMCLPCB)
-<!-- [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#) -->
+[![Linux (Coming soon)](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
 [![Web](https://img.shields.io/badge/Web-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://air-bridge-latest.onrender.com/)
 
 *AirBridge is a next-generation ecosystem that breaks the boundaries between devices. Experience zero-latency file transfers, an intelligent cloud vault, blockchain-verified ownership, and a self-learning AI that lets you talk directly to your files, Create digital NFT arts from cloud files with secured infused data. Welcome to the future of data mobility.*
